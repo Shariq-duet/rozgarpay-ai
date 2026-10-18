@@ -1,0 +1,37 @@
+================================================================================
+TAX INVOICE / تجارتی انوائس
+================================================================================
+Vendor: Lahore Fasteners Ltd
+NTN: 4920194-2
+Address: 14 Industrial Estate, Kot Lakhpat, Lahore, Pakistan
+Bank IBAN: PK36MEZN0001020304050607
+Payment Terms: Net 30
+
+Invoice Number: INV-LHE-2026-9901
+Invoice Date: 2026-10-03
+Customer Purchase Order Ref: PO-2026-0891
+Delivery Challan Ref: DC-88219
+
+Billed To:
+Rozgar Commerce Enterprises
+National Tax Number: 1092834-1
+Gulberg III, Lahore, Pakistan
+
+--------------------------------------------------------------------------------
+LINE ITEMS:
+--------------------------------------------------------------------------------
+Item # | Description                     | Qty | Unit | Unit Price (PKR) | Total (PKR)
+1      | High-Tensile Steel Bolts M12    | 500 | pcs  | 120.00           | 60,000.00
+2      | Heavy-Duty Industrial Nuts M12  | 500 | pcs  | 40.00            | 20,000.00
+
+--------------------------------------------------------------------------------
+Financial Summary:
+Subtotal:                       PKR 80,000.00
+Sales Tax (FBR GST @ 18%):       PKR 14,400.00
+GRAND TOTAL DUE:                PKR 94,400.00
+--------------------------------------------------------------------------------
+Bank Payment Instructions:
+Please remit funds to Meezan Bank, Gulberg Branch.
+IBAN: PK36MEZN0001020304050607
+Authorized Signatory: M. Rashid Khan
+================================================================================

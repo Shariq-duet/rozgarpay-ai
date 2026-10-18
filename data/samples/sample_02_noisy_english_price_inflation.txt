@@ -1,0 +1,22 @@
+*** SCANNED OCR BILL / RAW COMMERCIAL RECEIPT ***
+Vendor: Lahore Fasteners Ltd (Kot Lakhpat Ind Area, LHR)
+NTN No: 4920194-2
+Bill Date: 04-Oct-2026
+REF PO: PO-2026-0891
+INVOICE #: INV-LHE-2026-9988
+
+To: Rozgar Commerce AP Dept
+
+Line 01: High-Tensile Steel Bolts M12 [Qty: 500] @ PKR 145.00 / pc -> Total PKR 72,500.00
+Line 02: Heavy-Duty Industrial Nuts M12 [Qty: 500] @ PKR 45.00 / pc -> Total PKR 22,500.00
+Line 03: Emergency Transport & Steel Surcharge [Qty: 1] @ PKR 10,000.00 -> Total PKR 10,000.00
+
+Sub-Total: PKR 105,000.00
+Sales Tax GST (18%): PKR 18,900.00
+NET PAYABLE AMOUNT: PKR 123,900.00
+
+Payment Details:
+Bank: Meezan Bank Ltd
+IBAN: PK36MEZN0001020304050607
+Please process within 10 days. Late penalty 2% applies.
+Signed: Dispatch Officer

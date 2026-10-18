@@ -1,0 +1,214 @@
+{
+  "suppliers": [
+    {
+      "vendor_id": "VEN-LHE-01",
+      "name": "Lahore Fasteners Ltd",
+      "ntn": "4920194-2",
+      "address": "14 Industrial Estate, Kot Lakhpat, Lahore, Pakistan",
+      "iban": "PK36MEZN0001020304050607",
+      "payment_terms": "Net 30",
+      "status": "ACTIVE_VERIFIED"
+    },
+    {
+      "vendor_id": "VEN-IND-09",
+      "name": "Indus Cement & Construction Co.",
+      "name_urdu": "انڈس سیمنٹ اینڈ کنسٹرکشن کمپنی",
+      "ntn": "3810291-7",
+      "address": "Plot 88, Sector G-10/4, Islamabad, Pakistan",
+      "iban": "PK89HABB0099887766554433",
+      "payment_terms": "Net 15",
+      "status": "ACTIVE_VERIFIED"
+    },
+    {
+      "vendor_id": "VEN-KHI-44",
+      "name": "Karachi Agri-Trading Corp",
+      "name_urdu": "کراچی ایگری ٹریڈنگ کارپوریشن",
+      "ntn": "7182903-5",
+      "address": "Grain Market, Jodia Bazaar, Karachi, Pakistan",
+      "iban": "PK12UBL0044332211009988",
+      "payment_terms": "Net 30",
+      "status": "ACTIVE_VERIFIED"
+    },
+    {
+      "vendor_id": "VEN-RWP-12",
+      "name": "Rawalpindi Logistics Supplies",
+      "ntn": "9930214-0",
+      "address": "I-9 Industrial Area, Islamabad / Rawalpindi",
+      "iban": "PK04BAHL0022446688113355",
+      "payment_terms": "Net 15",
+      "status": "ACTIVE_VERIFIED"
+    }
+  ],
+  "purchase_orders": {
+    "PO-2026-0891": {
+      "po_number": "PO-2026-0891",
+      "vendor_id": "VEN-LHE-01",
+      "vendor_name": "Lahore Fasteners Ltd",
+      "issue_date": "2026-10-01",
+      "currency": "PKR",
+      "tax_rate_percent": 18.0,
+      "line_items": [
+        {
+          "item_code": "FAST-001",
+          "description": "High-Tensile Steel Bolts M12",
+          "quantity": 500,
+          "unit": "pcs",
+          "unit_price": 120.0,
+          "line_total": 60000.0
+        },
+        {
+          "item_code": "FAST-002",
+          "description": "Heavy-Duty Industrial Nuts M12",
+          "quantity": 500,
+          "unit": "pcs",
+          "unit_price": 40.0,
+          "line_total": 20000.0
+        }
+      ],
+      "subtotal": 80000.0,
+      "tax_amount": 14400.0,
+      "grand_total": 94400.0,
+      "authorized_by": "Farhan Tariq (Head of Procurement)"
+    },
+    "PO-2026-1044": {
+      "po_number": "PO-2026-1044",
+      "vendor_id": "VEN-IND-09",
+      "vendor_name": "Indus Cement & Construction Co.",
+      "issue_date": "2026-10-05",
+      "currency": "PKR",
+      "tax_rate_percent": 18.0,
+      "line_items": [
+        {
+          "item_code": "CEM-001",
+          "description": "Portland Cement Bags (سیمنٹ بوری 50 کلو)",
+          "quantity": 200,
+          "unit": "bags",
+          "unit_price": 1400.0,
+          "line_total": 280000.0
+        },
+        {
+          "item_code": "STL-002",
+          "description": "Reinforced Steel Rebar 12mm (سریے کی سلاخیں 12 ملی میٹر)",
+          "quantity": 50,
+          "unit": "lengths",
+          "unit_price": 4500.0,
+          "line_total": 225000.0
+        }
+      ],
+      "subtotal": 505000.0,
+      "tax_amount": 90900.0,
+      "grand_total": 595900.0,
+      "authorized_by": "Ayesha Malik (Supply Chain Director)"
+    },
+    "PO-2026-2105": {
+      "po_number": "PO-2026-2105",
+      "vendor_id": "VEN-KHI-44",
+      "vendor_name": "Karachi Agri-Trading Corp",
+      "issue_date": "2026-10-10",
+      "currency": "PKR",
+      "tax_rate_percent": 18.0,
+      "line_items": [
+        {
+          "item_code": "AGRI-101",
+          "description": "Super Kernel Basmati Rice 50kg (کرنل باسمتی چاول)",
+          "quantity": 100,
+          "unit": "bags",
+          "unit_price": 9000.0,
+          "line_total": 900000.0
+        },
+        {
+          "item_code": "AGRI-102",
+          "description": "Refined Canola Oil Tin 16L (خالص کینولا آئل ٹن)",
+          "quantity": 80,
+          "unit": "tins",
+          "unit_price": 7200.0,
+          "line_total": 576000.0
+        }
+      ],
+      "subtotal": 1476000.0,
+      "tax_amount": 265680.0,
+      "grand_total": 1741680.0,
+      "authorized_by": "Zahid Mehmood (Inventory Manager)"
+    }
+  },
+  "goods_receipts": {
+    "GRN-2026-0891": {
+      "grn_number": "GRN-2026-0891",
+      "po_number": "PO-2026-0891",
+      "received_date": "2026-10-04",
+      "warehouse_location": "Lahore Hub Dock 4",
+      "received_by": "Inspector Bilal",
+      "line_items": [
+        {
+          "item_code": "FAST-001",
+          "description": "High-Tensile Steel Bolts M12",
+          "quantity_ordered": 500,
+          "quantity_received": 500,
+          "quantity_damaged": 0,
+          "status": "ACCEPTED"
+        },
+        {
+          "item_code": "FAST-002",
+          "description": "Heavy-Duty Industrial Nuts M12",
+          "quantity_ordered": 500,
+          "quantity_received": 500,
+          "quantity_damaged": 0,
+          "status": "ACCEPTED"
+        }
+      ],
+      "dock_notes": "All items inspected against delivery challan. Quality certified."
+    },
+    "GRN-2026-1044": {
+      "grn_number": "GRN-2026-1044",
+      "po_number": "PO-2026-1044",
+      "received_date": "2026-10-08",
+      "warehouse_location": "Islamabad Metro Warehouse",
+      "received_by": "Inspector Usman",
+      "line_items": [
+        {
+          "item_code": "CEM-001",
+          "description": "Portland Cement Bags (سیمنٹ بوری)",
+          "quantity_ordered": 200,
+          "quantity_received": 200,
+          "quantity_damaged": 0,
+          "status": "ACCEPTED"
+        },
+        {
+          "item_code": "STL-002",
+          "description": "Reinforced Steel Rebar 12mm (سریے کی سلاخیں)",
+          "quantity_ordered": 50,
+          "quantity_received": 40,
+          "quantity_damaged": 0,
+          "status": "SHORT_DELIVERY"
+        }
+      ],
+      "dock_notes": "Short delivery: Supplier delivery vehicle only delivered 40 steel rebars out of 50 ordered. Missing 10 lengths noted on gate pass."
+    },
+    "GRN-2026-2105": {
+      "grn_number": "GRN-2026-2105",
+      "po_number": "PO-2026-2105",
+      "received_date": "2026-10-12",
+      "warehouse_location": "Karachi Cold Chain Facility",
+      "received_by": "Inspector Asif",
+      "line_items": [
+        {
+          "item_code": "AGRI-101",
+          "description": "Super Kernel Basmati Rice 50kg (کرنل باسمتی چاول)",
+          "quantity_ordered": 100,
+          "quantity_received": 100,
+          "quantity_damaged": 0,
+          "status": "ACCEPTED"
+        },
+        {
+          "item_code": "AGRI-102",
+          "description": "Refined Canola Oil Tin 16L (خالص کینولا آئل ٹن)",
+          "quantity_ordered": 80,
+          "quantity_received": 80,
+          "quantity_damaged": 0,
+          "status": "ACCEPTED"
+        }
+      ],
+      "dock_notes": "Grain moisture levels verified within standards. Oil tins intact."
+    }
+  }
+}

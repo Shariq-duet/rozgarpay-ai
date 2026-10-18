@@ -1,0 +1,20 @@
+================================================================================
+AGRICULTURAL COMMERCIAL SUPPLIES & TRADERS
+================================================================================
+Commercial Invoice #: INV-FRAUD-991
+Date: 2026-10-14
+PO Reference: PO-2026-2105
+
+Vendor: Karachi Agri-Trading Corp (Forged Header)
+Alleged NTN: 0000000-0 (UNVERIFIED)
+Remit To Personal Bank Account: PK99FAKE0000111122223333
+
+Line 01: Super Kernel Basmati Rice 50kg | Qty: 100 | Rate: 9,000.00 | Total: 900,000.00
+Line 02: Refined Canola Oil Tin 16L    | Qty: 80  | Rate: 7,200.00 | Total: 576,000.00
+
+Subtotal: PKR 1,476,000.00
+Tax 18%:  PKR 265,680.00
+Total:    PKR 1,741,680.00
+
+Warning Notice: Urgent wire transfer demanded within 24 hours to altered IBAN.
+================================================================================
