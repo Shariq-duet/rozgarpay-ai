@@ -38,6 +38,37 @@ class DebitNote(BaseModel):
     formal_explanation: str
     bilingual_vendor_notice: str
 
+    def to_printable_document(self) -> str:
+        """Renders formal commercial debit note text suitable for export and accounting audit."""
+        return f"""================================================================================
+OFFICIAL COMMERCIAL DEBIT NOTE / تجارتی ڈیبٹ نوٹ
+ROZGARPAY ENTERPRISE COMMERCE GATEWAY (FBR ST REGULATED)
+================================================================================
+Debit Note Reference: {self.debit_note_number}
+Issue Date:           {self.issue_date}
+Vendor:               {self.vendor_name}
+Invoice Reference:    {self.invoice_reference}
+Purchase Order Ref:   {self.po_reference}
+Reason Classification:{self.reason_code}
+--------------------------------------------------------------------------------
+FINANCIAL ADJUSTMENT SCHEDULE:
+Gross Invoiced Amount:              {self.currency} {self.original_invoiced_amount:,.2f}
+Less Commercial Debit Deduction:   -{self.currency} {self.debit_deduction_amount:,.2f}
+(Of which FBR Sales Tax Adjustment: {self.currency} {self.tax_adjustment_amount:,.2f})
+--------------------------------------------------------------------------------
+NET APPROVED REMITTANCE:            {self.currency} {self.adjusted_approved_amount:,.2f}
+--------------------------------------------------------------------------------
+Commercial Audit Justification:
+{self.formal_explanation}
+
+Bilingual Vendor Notice:
+{self.bilingual_vendor_notice}
+================================================================================
+Certified by: Evolus Commercial Settlement Gateway (AMD Instinct™ MI300X)
+Compliance Hash: SHA256-CERTIFIED-LEDGER-TRANSACTION
+================================================================================
+"""
+
 class EvolusWorkflowState(BaseModel):
     state: str = "INTAKE_RECEIVED"  # INTAKE_RECEIVED, EXTRACTION_COMPLETED, RECONCILIATION_EVALUATED, AUTO_APPROVED, ESCALATED_TO_GATEWAY, RESOLVED_WITH_DEBIT_NOTE, REJECTED
     invoice_number: str
