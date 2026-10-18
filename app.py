@@ -435,7 +435,6 @@ with tab_gateway:
 
         # 1. Straight-Through Processing Scenario
         if workflow.is_stp_eligible or workflow.state == "AUTO_APPROVED":
-            st.balloons()
             st.success("🎉 **STRAIGHT-THROUGH CLEARANCE:** This commercial invoice satisfies all deterministic conditions. No human escalation required. Automatically approved for Net-30 remittance.")
             
             st.markdown("##### 🚀 ERP Payout Dispatch Payload (SAP / Odoo / Evolus Ledger):")
